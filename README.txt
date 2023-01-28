@@ -1,8 +1,10 @@
 Classifying Handwritten Digits (Modified MNIST, two digits in one sample)
 
-For reproducibility, please make sure to run these notebooks in default kaggle notebook environnment of the competition (From competition web page: Code -> New Notebook).
+Dataset used: https://drive.google.com/file/d/1yqAvZ-MymLDIKns_XbfcTGgxAmC_kHJu/view?usp=sharing
 
-The notebook CNN-HP contains the CNN model. It requires Kaggle accelerator GPU (the one I used was GPU T4 x2) to be able to complete process within 1 hour and half, since it has hyperparameter tunning.
+For reproducibility, the models can be run on either Kaggle notebook, google colab or any notebook that allow some degree of GPU usage to avoid long training time.
+
+The notebook CNN-HP contains the CNN model. It requires GPUs (the one I used was GPU T4 x2 provided by Kaggle) to be able to complete process within 1 hour and half, since it has hyperparameter tunning.
 
 The notebook LOGREG contains the logistic regression model from scratch. It may take around 2 hours since it's built from scratch thus less efficient compared to algo using libraries.
 
