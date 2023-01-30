@@ -32,7 +32,7 @@ Bayesian Optimization search, reached an accuracy of 0.9964.
 step1:
 Download the dataset from the kaggle website and put the folder in the correct location as shown in the directory
     Classifying Handwritten Digits (Modified MNIST):
-    https://www.kaggle.com/t/0d0b1c033ece47ffa1dbc8bd374689ae/data
+    https://www.kaggle.com/t/0d0b1c033ece47ffa1dbc8bd374689ae
 
 step2:
 Configure the right environment, for example: Colab or JupyterNotebook
